@@ -1,1 +1,1 @@
-{"trim": "", "base": "c926add", "trimbase": "", "parent": "debian/eloquent/qt_gui_app", "previous": "488b83b"}
+{"base": "81ac1b3", "parent": "debian/verystable/qt_gui_app", "previous": "7ca3c33", "trim": "", "trimbase": ""}
