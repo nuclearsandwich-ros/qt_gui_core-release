@@ -1,0 +1,13 @@
+Source: ros-verystable-qt-gui
+Section: misc
+Priority: optional
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), pyqt5-dev, python3-pyqt5, python3-pyqt5.qtsvg, python3-sip-dev, qt5-qmake, ros-verystable-ament-cmake, ros-verystable-ament-lint-auto, ros-verystable-ament-lint-common, ros-verystable-ros-workspace
+Homepage: http://ros.org/wiki/qt_gui
+Standards-Version: 3.9.2
+
+Package: ros-verystable-qt-gui
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-catkin-pkg-modules, ros-verystable-ament-index-python, ros-verystable-python-qt-binding, tango-icon-theme, ros-verystable-ros-workspace
+Description: qt_gui provides the infrastructure for an integrated graphical user interface based on Qt.
+ It is extensible with Python- and C++-based plugins (implemented in separate packages) which can contribute arbitrary widgets. It requires either PyQt or PySide bindings.
