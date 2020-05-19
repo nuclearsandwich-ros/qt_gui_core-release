@@ -1,0 +1,12 @@
+Source: ros-testing-qt-gui-app
+Section: misc
+Priority: optional
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), ros-testing-ament-cmake, ros-testing-ament-lint-auto, ros-testing-ament-lint-common, ros-testing-ros-workspace
+Homepage: http://ros.org/wiki/qt_gui_app
+Standards-Version: 3.9.2
+
+Package: ros-testing-qt-gui-app
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-testing-ament-index-python, ros-testing-qt-gui, ros-testing-ros-workspace
+Description: qt_gui_app provides the main to start an instance of the integrated graphical user interface provided by qt_gui.
