@@ -1,1 +1,1 @@
-{"trim": "", "base": "0524402", "trimbase": "", "parent": "debian/foxy/qt_gui_py_common", "previous": "927fc9f"}
+{"base": "6d5827c", "parent": "debian/testing/qt_gui_py_common", "previous": "36f3df8", "trim": "", "trimbase": ""}
