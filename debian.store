@@ -1,1 +1,1 @@
-{"trim": "", "base": "667944b", "trimbase": "", "parent": "debian/foxy/qt_dotgraph", "previous": "2bb5456"}
+{"base": "23ec714", "parent": "debian/testing/qt_dotgraph", "previous": "65b42d9", "trim": "", "trimbase": ""}
