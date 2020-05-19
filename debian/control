@@ -1,0 +1,12 @@
+Source: ros-testing-qt-dotgraph
+Section: misc
+Priority: optional
+Maintainer: Dirk Thomas <dthomas@osrfoundation.org>
+Build-Depends: debhelper (>= 9.0.0), python3-pygraphviz, ros-testing-ament-cmake, ros-testing-ament-cmake-pytest, ros-testing-ament-lint-auto, ros-testing-ament-lint-common, ros-testing-ros-workspace
+Homepage: http://ros.org/wiki/qt_dotgraph
+Standards-Version: 3.9.2
+
+Package: ros-testing-qt-dotgraph
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python3-pydot, ros-testing-python-qt-binding (>= 0.3.0), ros-testing-ros-workspace
+Description: qt_dotgraph provides helpers to work with dot graphs.
